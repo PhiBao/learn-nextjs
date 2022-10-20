@@ -1,5 +1,7 @@
+import MeetUpList from "../components/meetups/MeetupList";
+
 function HomePage() {
-  return <h1>Home page</h1>;
+  return <MeetUpList />;
 }
 
 export default HomePage;

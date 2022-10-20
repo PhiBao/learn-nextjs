@@ -1,18 +1,7 @@
-import Link from "next/link";
-import { Fragment } from "react";
+import MeetupItem from "../../components/meetups/MeetupItem";
 
-function NewsPage() {
-  return (
-    <Fragment>
-      <h1>News page</h1>;
-      <ul>
-        <li>
-          <Link href="/news/xyz">Something</Link>
-        </li>
-        <li>Something else</li>
-      </ul>
-    </Fragment>
-  );
-}
+const MeetupDetail = () => {
+  return <MeetupItem />;
+};
 
-export default NewsPage;
+export default MeetupDetail;
